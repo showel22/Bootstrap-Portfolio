@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Steven Howell</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Style Sheet CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"></link>
+
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light sticky-top col-md-8 offset-md-2">
+        <a id="title" class="navbar-brand" href="index.html">Steven Howell</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="navigation" class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div id="content" class="col-12 col-md-8 offset-md-2">
+            <h2>Contact</h2>
+            <hr />
+            <form href="" method="post">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input class="form-control" name="name" type="text"/>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input class="form-control" name="email" type="text"/>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea class="form-control" name="message"></textarea>
+                </div>
+                <button id="submit" class="btn btn-primary" type="submit" >Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="footer" class="navbar justify-content-center fixed-bottom col-12 col-md-8 offset-md-2">
+            <div class="text-center">Copyright ©</div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
